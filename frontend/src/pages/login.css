@@ -1,0 +1,87 @@
+/* Full background (same as register) */
+.login-page {
+  height: 100vh;
+  background: linear-gradient(135deg, #10b981, #3b82f6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form box */
+.login-box {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  width: 340px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Title */
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #10b981;
+}
+
+/* Inputs */
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.login-box input:focus {
+  outline: none;
+  border-color: #10b981;
+  box-shadow: 0 0 5px rgba(16,185,129,0.3);
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #059669;
+}
+
+/* Links */
+.login-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.signup-btn {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 6px;
+  padding: 6px 10px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.forgot-link {
+  color: #4f46e5;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* Message */
+.login-message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: red;
+}

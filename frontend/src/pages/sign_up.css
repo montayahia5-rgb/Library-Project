@@ -1,0 +1,76 @@
+/* Full background */
+.register-page {
+  height: 100vh;
+  background: linear-gradient(135deg, #10b981, #3b82f6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form box */
+.register-box {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  width: 340px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Title */
+.register-box h2 {
+  margin-bottom: 20px;
+  color: #10b981;
+}
+
+/* Inputs */
+.register-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.register-box input:focus {
+  outline: none;
+  border-color: #10b981;
+  box-shadow: 0 0 5px rgba(16,185,129,0.3);
+}
+
+/* Button */
+.register-box button {
+  width: 100%;
+  padding: 12px;
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.register-box button:hover {
+  background: #059669;
+}
+
+/* Message */
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Switch to login */
+.switch {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.switch span {
+  color: #3b82f6;
+  cursor: pointer;
+  font-weight: bold;
+}

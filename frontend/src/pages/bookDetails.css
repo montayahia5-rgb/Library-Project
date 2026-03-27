@@ -1,0 +1,92 @@
+.book-details {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.book-image-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.book-image {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.book-image:hover {
+  transform: scale(1.02);
+}
+
+.description {
+  margin: 20px 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.read-btn {
+  background: #3b82f6;
+  margin: 10px;
+}
+
+.download-btn {
+  background: #10b981;
+  margin: 10px;
+}
+
+.book-details button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  color: rgb(249, 249, 249);
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.book-details button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.read-btn:hover {
+  background: #2563eb;
+}
+
+.download-btn:hover {
+  background: #059669;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .book-details {
+    padding: 20px;
+  }
+  
+  .book-image {
+    max-height: 300px;
+  }
+  
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .book-details button {
+    width: 200px;
+  }
+}

@@ -1,0 +1,41 @@
+.admin-page {
+  padding: 20px;
+}
+
+.admin-section {
+  margin-bottom: 40px;
+}
+
+.admin-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-section th, .admin-section td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.admin-section th {
+  background: #4f46e5;
+  color: white;
+}
+
+.admin-section button {
+  padding: 5px 10px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-section button:hover {
+  background: darkblue;
+}
+
+.admin-section input {
+  padding: 5px;
+  margin-right: 5px;
+}
