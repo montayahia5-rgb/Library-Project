@@ -46,3 +46,21 @@
 .return-btn:hover {
   background: #dc2626;
 }
+/* Carte en retard */
+.book-card.overdue {
+  border: 2px solid #ff4444;
+  background-color: #fff0f0;
+  box-shadow: 0 2px 8px rgba(255, 68, 68, 0.2);
+}
+
+/* Badge d'alerte */
+.alert-badge {
+  background-color: #ff4444;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 12px;
+}

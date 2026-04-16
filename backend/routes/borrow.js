@@ -12,7 +12,7 @@ router.post("/", verifyToken, async (req, res) => {
     return res.status(400).json({ error: "Missing data" });
   }
 
-  // ✅ BACKEND validation: no past dates
+  // BACKEND validation: no past dates
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   const selectedDate = new Date(return_date);
@@ -45,7 +45,7 @@ router.post("/", verifyToken, async (req, res) => {
       return res.status(400).json({ error: "No books available" });
 
     await db.query(
-      "INSERT INTO borrow (user_id, book_id, borrow_date , return_date) VALUES (?, ?, NOW(), ?)",
+      "INSERT INTO borrow (user_id, book_id, borrow_date, return_date) VALUES (?, ?, NOW(), ?)",
       [userId, bookId, return_date]
     );
 
@@ -60,17 +60,18 @@ router.post("/", verifyToken, async (req, res) => {
   }
 });
 
-// Get borrowed books for the authenticated user
+// Get borrowed books for the authenticated user (including overdue)
 router.get("/my-books", verifyToken, async (req, res) => {
   const userId = req.user.id;
 
   try {
     const [rows] = await db.query(
-      `SELECT borrow.id, books.title, books.author, borrow.borrow_date, borrow.return_date
+      `SELECT borrow.id, books.title, books.author, borrow.borrow_date, borrow.return_date,
+              CASE WHEN borrow.return_date < CURDATE() THEN 1 ELSE 0 END AS is_overdue
        FROM borrow
        JOIN books ON borrow.book_id = books.id
-       WHERE borrow.user_id = ? AND borrow.return_date >= CURDATE()
-       ORDER BY borrow.return_date ASC`,
+       WHERE borrow.user_id = ?
+       ORDER BY is_overdue DESC, borrow.return_date ASC`,
       [userId]
     );
 

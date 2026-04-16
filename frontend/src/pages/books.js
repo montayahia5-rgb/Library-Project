@@ -116,8 +116,12 @@ function Books() {
           onChange={(e) => setCategory(e.target.value)}
         >
           <option value="">All Categories</option>
-          <option value="Programming">Programming</option>
-          <option value="AI">AI</option>
+          <option value="Novels">Novels</option>
+          <option value="Plays/Films/Drama">Plays/Films/Drama</option>
+          <option value="Science-Fiction">Science-Fiction</option>
+          <option value="Philosophy & Ethics">Philosophy & Ethics</option>
+          <option value="Romance">Romance</option>
+          <option value="Language & Communication">Language & Communication</option>
         </select>
       </div>
 

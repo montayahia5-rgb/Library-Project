@@ -1,0 +1,87 @@
+{"level":"info","message":"✅ Cron job démarré","timestamp":"2026-04-16 10:55:55"}
+{"level":"info","message":"Serveur démarré sur http://localhost:3001","timestamp":"2026-04-16 10:55:55"}
+{"level":"info","message":"GET / - 200 - 65ms - IP: ::1","timestamp":"2026-04-16 10:56:06"}
+{"level":"info","message":"GET /? - 200 - 2ms - IP: ::1","timestamp":"2026-04-16 10:56:14"}
+{"level":"info","message":"GET / - 304 - 2ms - IP: ::1","timestamp":"2026-04-16 10:56:16"}
+{"level":"info","message":"OPTIONS /borrow/my-books - 204 - 1ms - IP: ::1","timestamp":"2026-04-16 10:56:17"}
+{"level":"info","message":"GET /my-books - 304 - 6ms - IP: ::1","timestamp":"2026-04-16 10:56:17"}
+{"level":"info","message":"GET / - 304 - 8ms - IP: ::1","timestamp":"2026-04-16 10:56:19"}
+{"level":"info","message":"OPTIONS /auth/login - 204 - 0ms - IP: ::1","timestamp":"2026-04-16 10:57:22"}
+{"level":"info","message":"POST /login - 200 - 137ms - IP: ::1","timestamp":"2026-04-16 10:57:22"}
+{"level":"info","message":"GET / - 304 - 19ms - IP: ::1","timestamp":"2026-04-16 10:57:23"}
+{"level":"info","message":"GET /? - 304 - 20ms - IP: ::1","timestamp":"2026-04-16 10:57:24"}
+{"level":"info","message":"OPTIONS /borrow - 204 - 0ms - IP: ::1","timestamp":"2026-04-16 10:57:29"}
+{"level":"info","message":"POST / - 200 - 59ms - IP: ::1","timestamp":"2026-04-16 10:57:29"}
+{"level":"info","message":"GET /? - 200 - 10ms - IP: ::1","timestamp":"2026-04-16 10:57:30"}
+{"level":"info","message":"GET / - 200 - 14ms - IP: ::1","timestamp":"2026-04-16 10:57:32"}
+{"level":"info","message":"OPTIONS /borrow/my-books - 204 - 1ms - IP: ::1","timestamp":"2026-04-16 10:57:33"}
+{"level":"info","message":"GET /my-books - 200 - 8ms - IP: ::1","timestamp":"2026-04-16 10:57:33"}
+{"level":"info","message":"GET / - 304 - 7ms - IP: ::1","timestamp":"2026-04-16 10:57:36"}
+{"level":"info","message":"POST /login - 401 - 2ms - IP: ::1","timestamp":"2026-04-16 11:06:40"}
+{"level":"info","message":"POST /login - 401 - 227ms - IP: ::1","timestamp":"2026-04-16 11:07:14"}
+{"level":"info","message":"POST /login - 401 - 106ms - IP: ::1","timestamp":"2026-04-16 11:07:18"}
+{"level":"info","message":"POST /login - 401 - 177ms - IP: ::1","timestamp":"2026-04-16 11:07:19"}
+{"level":"info","message":"POST /login - 401 - 105ms - IP: ::1","timestamp":"2026-04-16 11:08:11"}
+{"level":"info","message":"POST /login - 401 - 170ms - IP: ::1","timestamp":"2026-04-16 11:08:11"}
+{"level":"info","message":"POST /login - 401 - 100ms - IP: ::1","timestamp":"2026-04-16 11:08:12"}
+{"level":"info","message":"POST /login - 401 - 142ms - IP: ::1","timestamp":"2026-04-16 11:08:39"}
+{"level":"info","message":"POST /login - 401 - 155ms - IP: ::1","timestamp":"2026-04-16 11:08:40"}
+{"level":"info","message":"POST /login - 401 - 59ms - IP: ::1","timestamp":"2026-04-16 11:08:41"}
+{"level":"info","message":"POST /login - 401 - 64ms - IP: ::1","timestamp":"2026-04-16 11:08:42"}
+{"level":"info","message":"✅ Cron job démarré","timestamp":"2026-04-16 11:09:44"}
+{"level":"info","message":"Serveur démarré sur http://localhost:3001","timestamp":"2026-04-16 11:09:44"}
+{"level":"info","message":"POST /login - 401 - 92ms - IP: ::1","timestamp":"2026-04-16 11:09:53"}
+{"level":"info","message":"✅ Cron job démarré","timestamp":"2026-04-16 11:12:19"}
+{"level":"info","message":"Serveur démarré sur http://localhost:3001","timestamp":"2026-04-16 11:12:19"}
+{"level":"info","message":"POST /login - 401 - 297ms - IP: ::1","timestamp":"2026-04-16 11:12:50"}
+{"level":"info","message":"GET /login - 429 - 2ms - IP: ::1","timestamp":"2026-04-16 11:12:56"}
+{"level":"info","message":"GET /login - 429 - 7ms - IP: ::1","timestamp":"2026-04-16 11:12:59"}
+{"level":"info","message":"GET /login - 429 - 1ms - IP: ::1","timestamp":"2026-04-16 11:13:02"}
+{"level":"info","message":"✅ Cron job démarré","timestamp":"2026-04-16 11:35:10"}
+{"level":"info","message":"Serveur démarré sur http://localhost:3001","timestamp":"2026-04-16 11:35:10"}
+{"level":"info","message":"✅ Cron job démarré","timestamp":"2026-04-16 17:33:32"}
+{"level":"info","message":"Serveur démarré sur http://localhost:3001","timestamp":"2026-04-16 17:33:32"}
+{"level":"info","message":"GET / - 304 - 309ms - IP: ::1","timestamp":"2026-04-16 17:33:59"}
+{"level":"info","message":"GET /? - 304 - 8ms - IP: ::1","timestamp":"2026-04-16 17:34:10"}
+{"level":"info","message":"GET / - 304 - 3ms - IP: ::1","timestamp":"2026-04-16 17:34:15"}
+{"level":"info","message":"GET / - 304 - 4ms - IP: ::1","timestamp":"2026-04-16 17:34:26"}
+{"level":"info","message":"GET /? - 304 - 7ms - IP: ::1","timestamp":"2026-04-16 17:34:28"}
+{"level":"info","message":"GET / - 304 - 3ms - IP: ::1","timestamp":"2026-04-16 17:34:33"}
+{"level":"info","message":"OPTIONS /auth/login - 204 - 1ms - IP: ::1","timestamp":"2026-04-16 17:35:11"}
+{"level":"info","message":"POST /login - 200 - 386ms - IP: ::1","timestamp":"2026-04-16 17:35:11"}
+{"level":"info","message":"GET / - 304 - 3ms - IP: ::1","timestamp":"2026-04-16 17:35:12"}
+{"level":"info","message":"OPTIONS /borrow/my-books - 204 - 1ms - IP: ::1","timestamp":"2026-04-16 17:35:28"}
+{"level":"info","message":"GET /my-books - 304 - 37ms - IP: ::1","timestamp":"2026-04-16 17:35:28"}
+{"level":"info","message":"GET / - 304 - 4ms - IP: ::1","timestamp":"2026-04-16 17:35:36"}
+{"level":"info","message":"GET /? - 304 - 5ms - IP: ::1","timestamp":"2026-04-16 17:35:38"}
+{"level":"info","message":"GET / - 304 - 5ms - IP: ::1","timestamp":"2026-04-16 17:38:36"}
+{"level":"info","message":"OPTIONS /borrow/my-books - 204 - 2ms - IP: ::1","timestamp":"2026-04-16 17:40:49"}
+{"level":"info","message":"GET /my-books - 304 - 7ms - IP: ::1","timestamp":"2026-04-16 17:40:49"}
+{"level":"info","message":"GET / - 304 - 4ms - IP: ::1","timestamp":"2026-04-16 17:43:03"}
+{"level":"info","message":"GET / - 304 - 7ms - IP: ::1","timestamp":"2026-04-16 17:43:10"}
+{"level":"info","message":"GET /? - 304 - 9ms - IP: ::1","timestamp":"2026-04-16 17:43:24"}
+{"level":"info","message":"GET / - 304 - 2ms - IP: ::1","timestamp":"2026-04-16 17:45:09"}
+{"level":"info","message":"OPTIONS /auth/login - 204 - 1ms - IP: ::1","timestamp":"2026-04-16 17:45:14"}
+{"level":"info","message":"POST /login - 200 - 299ms - IP: ::1","timestamp":"2026-04-16 17:45:14"}
+{"level":"info","message":"GET / - 304 - 4ms - IP: ::1","timestamp":"2026-04-16 17:45:15"}
+{"level":"info","message":"OPTIONS /borrow/my-books - 204 - 1ms - IP: ::1","timestamp":"2026-04-16 17:45:22"}
+{"level":"info","message":"GET /my-books - 304 - 9ms - IP: ::1","timestamp":"2026-04-16 17:45:22"}
+{"level":"info","message":"GET / - 304 - 27ms - IP: ::1","timestamp":"2026-04-16 17:50:57"}
+{"level":"info","message":"OPTIONS /borrow/my-books - 204 - 1ms - IP: ::1","timestamp":"2026-04-16 18:03:59"}
+{"level":"info","message":"GET /my-books - 304 - 11ms - IP: ::1","timestamp":"2026-04-16 18:03:59"}
+{"level":"info","message":"GET / - 304 - 3ms - IP: ::1","timestamp":"2026-04-16 18:04:01"}
+{"level":"info","message":"OPTIONS /auth/login - 204 - 0ms - IP: ::1","timestamp":"2026-04-16 18:04:45"}
+{"level":"info","message":"POST /login - 401 - 283ms - IP: ::1","timestamp":"2026-04-16 18:04:45"}
+{"level":"info","message":"OPTIONS /auth/login - 204 - 1ms - IP: ::1","timestamp":"2026-04-16 18:09:15"}
+{"level":"info","message":"POST /login - 200 - 287ms - IP: ::1","timestamp":"2026-04-16 18:09:15"}
+{"level":"info","message":"GET / - 304 - 1ms - IP: ::1","timestamp":"2026-04-16 18:09:16"}
+{"level":"info","message":"OPTIONS /borrow/my-books - 204 - 3ms - IP: ::1","timestamp":"2026-04-16 18:09:18"}
+{"level":"info","message":"GET /my-books - 304 - 7ms - IP: ::1","timestamp":"2026-04-16 18:09:18"}
+{"level":"info","message":"GET /my-books - 304 - 3ms - IP: ::1","timestamp":"2026-04-16 18:09:20"}
+{"level":"info","message":"OPTIONS /borrow/my-books - 204 - 1ms - IP: ::1","timestamp":"2026-04-16 18:09:40"}
+{"level":"info","message":"GET /my-books - 304 - 2ms - IP: ::1","timestamp":"2026-04-16 18:09:40"}
+{"level":"info","message":"GET /my-books - 304 - 1ms - IP: ::1","timestamp":"2026-04-16 18:09:40"}
+{"level":"info","message":"GET /my-books - 304 - 2ms - IP: ::1","timestamp":"2026-04-16 18:09:40"}
+{"level":"info","message":"OPTIONS /borrow/my-books - 204 - 1ms - IP: ::1","timestamp":"2026-04-16 18:10:06"}
+{"level":"info","message":"GET /my-books - 304 - 3ms - IP: ::1","timestamp":"2026-04-16 18:10:06"}
+{"level":"info","message":"GET / - 304 - 2ms - IP: ::1","timestamp":"2026-04-16 18:10:09"}

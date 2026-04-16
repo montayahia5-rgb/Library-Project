@@ -69,7 +69,7 @@ function Login() {
 
         <div className="login-links">
           <a href="/sign_up" className="signup-btn">Sign Up</a>
-          <a href="#" className="forgot-link">Forgot?</a>
+          <a href="/forgot-password" className="forgot-link">Forgot?</a>
         </div>
 
         <p className="login-message">{message}</p>

@@ -70,7 +70,8 @@ function MyBooks() {
       ) : (
         <div className="book-list">
           {borrowedBooks.map(b => (
-            <div key={b.id} className="book-card">
+            <div key={b.id} className={`book-card ${b.is_overdue ? "overdue" : ""}`}>
+              {b.is_overdue && <div className="alert-badge">⚠️ En retard</div>}
               <h3>{b.title}</h3>
               <p>Author: {b.author}</p>
               <p>
@@ -81,13 +82,6 @@ function MyBooks() {
                 Borrowed on:{" "}
                 {new Date(b.borrow_date).toLocaleDateString()}
               </p>
-
-              <button
-                className="return-btn"
-                onClick={() => handleReturn(b.id)}
-              >
-                Return Book
-              </button>
             </div>
           ))}
         </div>
